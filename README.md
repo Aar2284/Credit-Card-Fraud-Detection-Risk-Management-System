@@ -45,7 +45,7 @@ Ensure you have Python 3.9 or higher installed. You can download it from [python
 
 1.  **Clone the repository:**
     ```bash
-    git clone ttps://github.com/Aar2284/Credit-Card-Fraud-Detection-Risk-Management-System
+    git clone https://github.com/Aar2284/Credit-Card-Fraud-Detection-Risk-Management-System
     cd Credit-Card-Fraud-Detection-Risk-Management-System
     ```
 2.  **Create and activate a virtual environment:**
@@ -75,7 +75,7 @@ To use the application, follow these steps:
     ```bash
     streamlit run fraud_detection_dashboard.py
     ```
-    Navigate to `http://localhost:8501` in your web browser.
+    Navigate to `http://localhost:8501` in your web browser
 4.  **Get the data 
 
 ## 📂 Project Structure
@@ -120,3 +120,7 @@ The project employs a sophisticated pipeline and a variety of models to ensure a
 ## 📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contribution
+
+Open for contribution and your suggestions.
