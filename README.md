@@ -5,6 +5,7 @@
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
     <img src="https://img.shields.io/badge/Streamlit-1.25.0-red.svg" alt="Streamlit Version">
     <img src="https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg" alt="Scikit-learn Version">
+    <img src="https://img.shields.io/badge/SQLite-Database-purple.svg" alt="SQLite Database">
 </p>
 
 ## 📖 About The Project
@@ -44,7 +45,7 @@ Ensure you have Python 3.9 or higher installed. You can download it from [python
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Credit-Card-Fraud-Detection-Risk-Management-System.git
+    git clone ttps://github.com/Aar2284/Credit-Card-Fraud-Detection-Risk-Management-System
     cd Credit-Card-Fraud-Detection-Risk-Management-System
     ```
 2.  **Create and activate a virtual environment:**
@@ -64,6 +65,7 @@ To use the application, follow these steps:
 1.  **Download the data:**
     ```bash
     python scripts/download_data.py
+    https://drive.google.com/drive/folders/1Q9sJ4n1dyd54JFKw7jSk_ge-2r6UTNBi?usp=sharing
     ```
 2.  **Run the main data pipeline:**
     ```bash
@@ -74,24 +76,30 @@ To use the application, follow these steps:
     streamlit run fraud_detection_dashboard.py
     ```
     Navigate to `http://localhost:8501` in your web browser.
+4.  **Get the data 
 
 ## 📂 Project Structure
 
 ```
-├── data/
-├── models/
-├── src/
-│   ├── ingestion/
-│   ├── features/
-│   ├── models/
-│   ├── evaluation/
-│   ├── explainability/
-│   └── utils/
-├── scripts/
-├── training_models/
-├── fraud_detection_dashboard.py
-├── requirements.txt
-└── README.md
+📁 Credit Card Fraud Detection/
+├──  dashboard/                    # Interactive Streamlit dashboard
+│   └── fraud_detection_dashboard.py
+├──  scripts/                      # Pipeline orchestration
+│   ├── download_data.py            # Data acquisition
+│   ├── run_pipeline.py             # Main pipeline
+│   └── main_pipeline.py            # Enhanced pipeline
+├──  src/                         # Core system components
+│   ├──  ingestion/               # Data loading & validation
+│   ├──  features/                # Feature engineering
+│   ├──  models/                  # ML models & algorithms
+│   ├──  evaluation/              # Performance assessment
+│   ├──  explainability/          # Model interpretation
+│   └──  utils/                   # Utility functions
+├──  data/                        # Data storage
+│   ├── raw/                        # Original datasets
+│   ├── processed/                  # Cleaned data
+│   └── transactions.db             # SQLite database
+└──  training_models/               # Trained model artifacts
 ```
 
 ## 🤖 Model & Pipeline
