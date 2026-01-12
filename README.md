@@ -1,7 +1,7 @@
 <h1 align="center">Credit Card Fraud Detection & Risk Management System</h1>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT">
+    <img src="https://img.shields.io/badge/License-Apache2.0-yellow.svg" alt="License: MIT">
     <img src="https://img.shields.io/badge/Python-3.9+-blue.svg" alt="Python Version">
     <img src="https://img.shields.io/badge/Streamlit-1.25.0-red.svg" alt="Streamlit Version">
     <img src="https://img.shields.io/badge/scikit--learn-1.3.0-orange.svg" alt="Scikit-learn Version">
