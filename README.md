@@ -21,7 +21,7 @@ This project is a comprehensive system for detecting fraudulent credit card tran
 *   **Interactive Dashboard:** A Streamlit-based dashboard for monitoring key metrics, detecting anomalies, forecasting balances, and evaluating model performance.
 *   **End-to-End Pipeline:** A complete data pipeline for ingestion, transformation, model training, and storage using a SQLite database.
 
-## 🛠️ Built With
+## 🛠️ Built With (Tech Stack)
 
 This project is built with a modern Python stack for machine learning and data science.
 
